@@ -25,9 +25,9 @@
             </ul>
 
             <div class="box-icons">
-                <a href="https://www.linkedin.com/in/karaka-sai-chandra-sekhar-01770832b/" target="_blank"><p><i class='bx bxl-instagram'></i></p></a>
-                <a href="https://www.instagram.com/sai________chandra/" target="_blank"><p><i class='bx bxl-github'></i></p></a>
-                <a href="https://github.com/chandu123464" target="_blank"><p><i class='bx bxl-linkedin-square'></i></p></a>
+                <a href="https://www.linkedin.com/in/karaka-sai-chandra-sekhar-01770832b/" target="_blank" style="text-decoration: none; color: white;"><p><i class='bx bxl-linkedin-square'></i></p></a>
+                <a href="https://www.instagram.com/sai________chandra/" target="_blank" style="text-decoration: none; color: white;"><p><i class='bx bxl-instagram'></i></p></a>
+                <a href="https://github.com/chandu123464" target="_blank" style="text-decoration: none; color: white;"><p><i class='bx bxl-github'></i></p></a>
             </div>
 
             <div class="menu-icon">
@@ -80,7 +80,7 @@
                     <a href="https://drive.google.com/file/d/1Y2joQETK4oChWN8BnoOnjMSbavqIT0dl/view?usp=sharing" target="_blank" class="btn-resume">
                         <button><i class='bx bxs-file-pdf'></i> View Resume</button>
                     </a>
-            </div>
+                </div>
                 
             </div>
             
@@ -239,6 +239,39 @@
     </div>
 </section>
 
+<!-- ======== SERVICES SECTION ======== -->
+<section id="services" class="services-section autoDisplay">
+    <h1 class="section-title">My <span class="gradient">Services</span></h1>
+    <p class="service-tagline">Comprehensive solutions to bring your digital vision to life</p>
+
+    <div class="services-grid">
+        <div class="service-card">
+            <div class="icon-box"><i class='bx bx-code-alt'></i></div>
+            <h3>Full-Stack Web Development</h3>
+            <p>End-to-end web application development using <b>React.js, Node.js, Express.js, and Java</b>. Includes responsive UI and RESTful API design for seamless functionality.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon-box purple"><i class='bx bxs-palette'></i></div>
+            <h3>UI/UX & Web Design</h3>
+            <p>Building intuitive and visually appealing interfaces with seamless cross-device experiences. Focus on user-centered design principles and modern aesthetics.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon-box blue"><i class='bx bxs-data'></i></div>
+            <h3>Database Management & Integration</h3>
+            <p>Managing <b>MongoDB, MySQL, and Firebase</b> for efficient, secure data handling. Expertise in schema design, optimization, and data migration.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon-box orange"><i class='bx bxs-cog'></i></div>
+            <h3>Custom Applications & Solutions</h3>
+            <p>Developing scalable, optimized software tailored to client requirements. From MVPs to enterprise solutions with clean, maintainable code.</p>
+        </div>
+    </div>
+</section>
+
+
         <section class="my-project" id="projects">
             <h1 class="section-title autoDisplay">My Projects 👨‍💻</h1>
             <div class="project-card">
@@ -318,10 +351,10 @@
             <h1 class="section-title autoDisplay">Let's talk😊</h1>
 
             <div class="social-box autoBlur">
-                <a href="tel:+918886315136" target="_blank"><i class='bx bxs-phone'></i> +91 88863 15136</a>
-                <a href="mailto:saichandrasekhark@gmail.com"><i class='bx bx-envelope'></i> saichandrasekhark@gmail.com</a>
-                <a href="https://www.linkedin.com/in/karaka-sai-chandra-sekhar-01770832b/" target="_blank"><i class='bx bxl-linkedin-square'></i> LinkedIn</a>
-                <a href="https://www.instagram.com/sai________chandra/" target="_blank"><i class='bx bxl-instagram'></i> Instagram</a>
+                <a href="tel:+918886315136" target="_blank" style="text-decoration: none; color: white;"><i class='bx bxs-phone'></i> +91 88863 15136</a>
+                <a href="mailto:saichandrasekhark@gmail.com" style="text-decoration: none; color: white;"><i class='bx bx-envelope'></i> saichandrasekhark@gmail.com</a>
+                <a href="https://www.linkedin.com/in/karaka-sai-chandra-sekhar-01770832b/" target="_blank" style="text-decoration: none; color: white;"><i class='bx bxl-linkedin-square'></i> LinkedIn</a>
+                <a href="https://www.instagram.com/sai________chandra/" target="_blank" style="text-decoration: none; color: white;"><i class='bx bxl-instagram'></i> Instagram</a>
                 <div class="social-icons">
                     <a href="#"><i class='bx bxl-youtube' ></i></a>
                     <a href="#"><i class='bx bxl-twitter' ></i></a>
@@ -330,28 +363,32 @@
             </div>
 
             <div class="contact-box autoBlur">
-                <p>Wheter you're looking to build a new website, improve your existing platform, or bring a unique project to file. i'm here to help.</p>
-            
-                <p>Full Name</p>
-                <input type="text" id="name" name="name" placeholder="Your Name">
+    <p>Wheter you're looking to build a new website, improve your existing platform, or bring a unique project to file. i'm here to help.</p>
 
-                <p>Email Address</p>
-                <input type="email" id="email" name="email" placeholder="Your Email">
+    <form id="contact-form">
+        <p>Full Name</p>
+        <input type="text" id="name" name="user_name" placeholder="Your Name" required>
 
-                <p>Your Message</p>
-                <input  class="input-message" type="contact" placeholder="shaire your thoughts...">
+        <p>Email Address</p>
+        <input type="email" id="email" name="user_email" placeholder="Your Email" required>
 
-                <button>Send Message <i class='bx bx-mail-send'></i></button>
-            </div>
+        <p>Your Message</p>
+        <input class="input-message" id="message" name="message" placeholder="Share your thoughts..." required>
+
+        <div id="form-feedback" style="margin-bottom: 10px; font-weight: bold;"></div>
+
+        <button type="submit">Send Message <i class='bx bx-mail-send'></i></button>
+    </form>
+    </div>
         
         </section> 
 
         <section class="footer">
             <h1> Made with ❤️ by Sai Chandra</h1>
             <div class="box-icons">
-                <a href="https://www.instagram.com/sai________chandra/" target="_blank"><p><i class='bx bxl-instagram'></i></p></a>
-                <a href="https://github.com/chandu123464" target="_blank"><p><i class='bx bxl-github'></i></p></a>
-                <a href="https://www.linkedin.com/in/karaka-sai-chandra-sekhar-01770832b/" target="_blank"><p><i class='bx bxl-linkedin-square'></i></p></a>
+                <a href="https://www.instagram.com/sai________chandra/" target="_blank" style="text-decoration: none; color: white;"><p><i class='bx bxl-instagram'></i></p></a>
+                <a href="https://github.com/chandu123464" target="_blank" style="text-decoration: none; color: white;"><p><i class='bx bxl-github'></i></p></a>
+                <a href="https://www.linkedin.com/in/karaka-sai-chandra-sekhar-01770832b/" target="_blank" style="text-decoration: none; color: white;"><p><i class='bx bxl-linkedin-square'></i></p></a>
             </div>
         </section>
 
@@ -364,3 +401,4 @@
     </script>
     
 </body>
+</html>
